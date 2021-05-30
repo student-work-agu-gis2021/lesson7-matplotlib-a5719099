@@ -19,7 +19,9 @@ import numpy as np
 import pandas as pd
 
 # YOUR CODE HERE 1 to set data
-
+data = pd.read_csv 
+ax = data.plot()
+ay = data.plot()
 # Check your random values
 print(data.head())
 
@@ -31,7 +33,7 @@ assert len(data) == 1000, "There should be 1000 rows of data."
 # 
 
 # YOUR CODE HERE 2 to set colors
-
+colors = random(1000)
 # This test print should print out 10 first numbers in the variable colors
 print(colors[0:10])
 
@@ -42,7 +44,7 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 # ### Part 3 
 # 
 # #### Part 3.1
-# 
+ 
 # Create a scatter plot of points with random colors
 # 
 # #### Part 3.2
@@ -52,7 +54,7 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 
 # Plot a scatter plot
 # YOUR CODE HERE 3
-
+Data.plot.scatter()
 # Add labels and title
 # YOUR CODE HERE 4
 
